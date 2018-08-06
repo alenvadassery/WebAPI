@@ -1,12 +1,9 @@
-﻿using System.Web.Mvc;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
-using ProductAPI;
-using ProductAPI.Controllers;
-using ProductAPI.DAL;
+﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Moq;
-using System.Linq;
-using System.Collections.Generic;
+using ProductAPI.Controllers;
 using ProductAPI.EntityModel;
+using ProductAPI.Manager;
+using System.Collections.Generic;
 
 namespace ProductAPI.Tests.Controllers
 {

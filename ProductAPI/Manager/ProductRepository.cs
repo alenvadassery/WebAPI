@@ -1,10 +1,8 @@
 ﻿using ProductAPI.EntityModel;
-using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Web;
 
-namespace ProductAPI.DAL
+namespace ProductAPI.Manager
 {
     public class ProductRepository : IProductRepository
     {

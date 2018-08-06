@@ -11,7 +11,7 @@ namespace ProductAPI.App_Start
     using Ninject;
     using Ninject.Web.Common;
     using Ninject.Web.Common.WebHost;
-    using ProductAPI.DAL;
+    using ProductAPI.Manager;
     using ProductAPI.EntityModel;
 
     public static class NinjectWebCommon 

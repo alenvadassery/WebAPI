@@ -1,7 +1,7 @@
 ﻿using ProductAPI.EntityModel;
 using System.Collections.Generic;
 
-namespace ProductAPI.DAL
+namespace ProductAPI.Manager
 {
     public interface IProductRepository
     {

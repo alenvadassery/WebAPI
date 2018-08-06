@@ -178,8 +178,8 @@
     <Compile Include="App_Start\NinjectWebCommon.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\ProductController.cs" />
-    <Compile Include="DAL\IProductRepository.cs" />
-    <Compile Include="DAL\ProductRepository.cs" />
+    <Compile Include="Manager\IProductRepository.cs" />
+    <Compile Include="Manager\ProductRepository.cs" />
     <Compile Include="EntityModel\ProductContext.cs" />
     <Compile Include="EntityModel\Product.cs" />
     <Compile Include="Global.asax.cs">
@@ -189,7 +189,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Global.asax" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </Content>

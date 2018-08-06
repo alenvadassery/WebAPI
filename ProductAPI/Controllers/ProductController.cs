@@ -1,7 +1,6 @@
-﻿using ProductAPI.DAL;
+﻿using ProductAPI.Manager;
 using ProductAPI.EntityModel;
 using System.Collections.Generic;
-using System.Linq;
 using System.Web.Http;
 
 namespace ProductAPI.Controllers
